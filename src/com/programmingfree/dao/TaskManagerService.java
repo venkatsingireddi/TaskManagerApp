@@ -91,8 +91,8 @@ public class TaskManagerService {
   }
 
 
- public List<task> getAllTasks() {
-  List<task> tasks = new ArrayList<task>();
+ public List<Task> getAllTasks() {
+  List<Task> tasks = new ArrayList<Task>();
   try {
    Statement statement = connection.createStatement();
    ResultSet rs = statement.executeQuery("select * from task_list where task_archived=0");
