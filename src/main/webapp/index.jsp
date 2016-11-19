@@ -7,11 +7,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Task Manager</title>
 <link href='${pageContext.request.contextPath}/css/style.css' rel="stylesheet" type="text/css"></link>
+<link href='${pageContext.request.contextPath}/css/animate.css' rel="stylesheet" type="text/css"></link>
 <link href='${pageContext.request.contextPath}/css/css/font-awesome.css' rel="stylesheet" type="text/css"></link>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<link href='${pageContext.request.contextPath}/css/jquery-ui.min.css' rel="stylesheet" type="text/css"></link>
+
+<!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'></link>
+
 <script data-require="angular.js@*" data-semver="1.2.13" src="http://code.angularjs.org/1.2.13/angular.js"></script>
-  <script data-require="angular-animate@*" data-semver="1.2.13" src="http://code.angularjs.org/1.2.13/angular-animate.js"></script>
-<script type="text/javascript" src="${pageContext.request.contextPath}/js/app.js"></script>
+<script data-require="angular-animate@*" data-semver="1.2.13" src="http://code.angularjs.org/1.2.13/angular-animate.js"></script>
+ -->
+ <script src="${pageContext.request.contextPath}/js/jquery-1.12.4.min.js"></script>
+ <script src="${pageContext.request.contextPath}/js/jquery-ui.min.js"></script>
+ <script data-require="angular.js@*" data-semver="1.2.13" src="${pageContext.request.contextPath}/js/angular.min.js"></script>
+ <script data-require="angular-animate@*" data-semver="1.2.13" src="${pageContext.request.contextPath}/js/angular-animate.min.js"></script>
+ <script type="text/javascript" src="${pageContext.request.contextPath}/js/app.js"></script>
 </head>
 <body>
 
