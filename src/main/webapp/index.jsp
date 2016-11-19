@@ -5,20 +5,20 @@
 <html ng-app="taskManagerApp">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>AngularJS Task Manager</title>
-<link href='./css/style.css' rel="stylesheet" type="text/css"></link>
-<link href='./css/css/font-awesome.css' rel="stylesheet" type="text/css"></link>
+<title>Task Manager</title>
+<link href='${pageContext.request.contextPath}/css/style.css' rel="stylesheet" type="text/css"></link>
+<link href='${pageContext.request.contextPath}/css/css/font-awesome.css' rel="stylesheet" type="text/css"></link>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <script data-require="angular.js@*" data-semver="1.2.13" src="http://code.angularjs.org/1.2.13/angular.js"></script>
   <script data-require="angular-animate@*" data-semver="1.2.13" src="http://code.angularjs.org/1.2.13/angular-animate.js"></script>
-<script type="text/javascript" src="./js/app.js"></script>
+<script type="text/javascript" src="${pageContext.request.contextPath}/js/app.js"></script>
 </head>
 <body>
 
 <div ng-controller="taskManagerController">
-<h2 class="page-title">Task Manager using Spring MVC 4 Rest &amp; AngularJS</h2>
-<h4 class="page-title">Demo &amp; Tutorial by <a href="">Priyadarshini</a></h4>
-<a href="http://www.programming-free.com/2014/06/crud-springmvc-restful-webservices-angularjs.html" class="button-red" style="text-align:center;width:70px;margin-left:45%;margin-right:40%">Tutorial</a>	
+<h2 class="page-title">Task Manager Application</h2>
+<h4 class="page-title">Research &amp; Development Application by <a href="">VENKAT S REDDY</a></h4>
+<!-- <a href="http://www.programming-free.com/2014/06/crud-springmvc-restful-webservices-angularjs.html" class="button-red" style="text-align:center;width:70px;margin-left:45%;margin-right:40%">Tutorial</a> -->	
 	<div id="task-panel" class="fadein fadeout showpanel panel"  ng-show="toggle">	
 		<div class="panel-heading">
 			<i class="panel-title-icon fa fa-tasks"></i>
