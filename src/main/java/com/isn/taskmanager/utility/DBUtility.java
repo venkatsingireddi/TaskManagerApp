@@ -18,7 +18,7 @@ public class DBUtility {
         else {
             try {
              Properties prop = new Properties();
-                InputStream inputStream = DBUtility.class.getClassLoader().getResourceAsStream("/config.properties");
+                InputStream inputStream = DBUtility.class.getClassLoader().getResourceAsStream("/config/config.properties");
                 prop.load(inputStream);
                 String driver = prop.getProperty("driver");
                 String url = prop.getProperty("url");
